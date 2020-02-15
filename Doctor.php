@@ -7,10 +7,9 @@ $ADDR = $_POST['Address'];
 $ECNo = $_POST['ECNo'];
 $EJOB = $_POST['EJob'];
 $ESal = $_POST['ESal'];
-$PID = $_POST['PID'];
 $D_SP = $_POST['D_Sp'];
 
-$sql = "INSERT INTO doctor ( EID, DNAME, PID, D_Sp ) VALUES ('$EID', '$DNAME', '$PID', 'D_SP');";
+$sql = "INSERT INTO doctor ( EID, DNAME, D_Sp ) VALUES ('$EID', '$DNAME', '$D_SP');";
 
 $sql1 = "INSERT INTO employee (EID, EName, EAddress, ECNo, EJob, ESal) values ( '$EID', '$DNAME', '$ADDR', '$ECNo', '$EJOB', '$ESal');";
 

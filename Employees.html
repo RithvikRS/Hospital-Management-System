@@ -1,3 +1,7 @@
+<?php
+include_once 'DB/DBC.php';
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,64 +18,27 @@
 <a href="Doctor.html">Doctor</a>
 <a href="Nurse.html">Nurse</a>
 <a href="Receptionist.html">Receptionist</a>
-<a href="Patient.html">Patient</a>
-<a href="Records.html">Records</a>
-<a href="Rooms.html">Rooms</a>
-<a href="Medicines.html">Medicines</a>
-<a href="About.html">About</a>
 </div>
 <section>
   
   <article>
-  <form action="action_page.php">
+<form action="DB/Emp.php" method="POST">
   <fieldset>
-  <legend>Please Please Enter Your credentials </legend>
-EID: <input type="text" name="Employee ID"><br>
-EName: <input type="text" name="Name"><br>
-EAddress: <input type="text" name="Address"><br>
-ECNo: <input type="text" name="Contact Number"><br>
-EJob: <input type="text" name="Job"><br>
-Esal: <input type="number" name="salary" step="0.01"><br>
+  <legend>Please Enter the Name to search for:</legend>
+Employee Name: <input type="text" name="EName"><br><br>
   <input type="submit" value="Enter">
   </fieldset>
    </form>
-  </article>
-</section>
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Sign In </title>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-</head>
-<body>
-<header>
-  <img src="Logo.png" alt="Logo" align-"left">
-  <h1>Hospital Management</h1>
-</header>
-<div class="topnav">
-      <a href="html.html">Home</a></li>
-<a href="About.html">About</a>
-</div>
-<section>
-  
-  <article>
-  <form action="action_page.php">
+<br><br><br>
+<form action="DB/Emp1.php" method="POST">
   <fieldset>
-  <legend>Please Please Enter Your credentials </legend>
-EID: <input type="text" name="Employee ID"><br>
-RName: <input type="text" name="Name"><br>
-EAddress: <input type="text" name="Address"><br>
-ECNo: <input type="text" name="Contact Number"><br>
-EJob: <input type="text" name="Job"><br>
-Esal: <input type="number" name="salary" step="0.01"><br>
-  <input type="submit" value="sign up">
+  <legend>Click to find all the records of the Employees</legend>
+  <input type="submit" value="Enter">
   </fieldset>
    </form>
+
   </article>
 </section>
-
 
 <footer>
   <p>Project by Swaraj, Shreyansh, saketh, Rithvik, Zeeshan</p>
