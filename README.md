@@ -1,10 +1,17 @@
 # Hospital-Management-System
-Hospital Management System created
+<img src="https://img.shields.io/badge/Language-HTML,CSS,PHP-blue.svg" alt="made with HTML,CSS,PHP">
 
-Set Up:
+A hospital management system.
 
-1.Create an folder called DB in the same folder as all the html files.
+## Languages Used
+* HTML
+* CSS
+* PHP
 
-2. Move all the .php files into the DB folder
+## How to run:
 
-3. Download XAMPP and create relevant tables using phpMyAdmin
+1. Download XAMPP
+2. Copy the files to the htdocs folder
+3. Create relevant tables
+4. Run the MySQL server
+5. Launch using browser
